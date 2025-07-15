@@ -86,4 +86,8 @@ object ToneManager {
         }
         audioTrack = null
     }
+    
+    fun updateWidgets(context: android.content.Context) {
+        ToneWidgetProvider.updateAllWidgets(context)
+    }
 }

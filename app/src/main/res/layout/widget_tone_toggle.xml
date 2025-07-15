@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="8dp"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/widget_toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_button_background"
+        android:src="@drawable/ic_play_arrow"
+        android:scaleType="centerInside"
+        android:contentDescription="Toggle 852Hz Tone"
+        android:layout_margin="4dp" />
+
+</LinearLayout>
